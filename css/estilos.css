@@ -8,17 +8,22 @@ font-size: 62.5%;
 }
 body{
 	font-size: 1.6rem;
+	font-family: "Roboto",san-serif;
 
 }
 .titulo{
 	font-size: 7rem;
+	font-family: 'El Messiri', sans-serif;
 }
 
 .titulo-a{
 	font-size: 2.4rem;
+	font-weight: 300;
 }
 .titulo-b{
 	font-size: 5rem;
+	font-family: 'El Messiri', sans-serif;
+
 }
 .guitarras{
 	color: #1F3130;
