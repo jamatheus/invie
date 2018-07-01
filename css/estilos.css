@@ -1,15 +1,36 @@
 *{
-	border: 1px solid red;
-	margin: 10px;
+	
 	box-sizing: border-box;
-}
-header{
-	background: blue;
 }
 
 html{
-
+font-size: 62.5%;
 }
 body{
+	font-size: 1.6rem;
 
+}
+.titulo{
+	font-size: 7rem;
+}
+
+.titulo-a{
+	font-size: 2.4rem;
+}
+.titulo-b{
+	font-size: 5rem;
+}
+.guitarras{
+	color: #1F3130;
+}
+
+.guitarras h2{
+	font-size: 3.5rem;
+}
+.portada{
+	background-image: url('../images/background.png');
+	color: #FFFFFF;
+}
+.menu{
+	font-size: 2.4rem;
 }
