@@ -9,21 +9,35 @@ font-size: 62.5%;
 body{
 	font-size: 1.6rem;
 	font-family: "Roboto",san-serif;
+	margin: 0px;
+	width: 90%;
+	margin: auto;
 
 }
 .titulo{
 	font-size: 7rem;
 	font-family: 'El Messiri', sans-serif;
+	padding-left: 20px;
+	margin: 0px;
 }
 
 .titulo-a{
 	font-size: 2.4rem;
 	font-weight: 300;
+	padding-left: 20px;
+	margin: 0px;
 }
 .titulo-b{
 	font-size: 5rem;
 	font-family: 'El Messiri', sans-serif;
+	margin-bottom: 25px;
 
+}
+button{
+	
+	width: 100px;
+	padding:  5px;
+	margin: 20px;	
 }
 .guitarras{
 	color: #1F3130;
@@ -35,6 +49,7 @@ body{
 .portada{
 	background-image: url('../images/background.png');
 	color: #FFFFFF;
+	padding: 30px;
 }
 .menu{
 	font-size: 2.4rem;
@@ -44,4 +59,6 @@ body{
 }
 .menu li{
 	display: inline-block;
+	border: 2px solid red;
+	margin-left: 20px;
 }
