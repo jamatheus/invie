@@ -10,9 +10,12 @@ body{
 	font-size: 1.6rem;
 	font-family: "Roboto",san-serif;
 	margin: 0px;
+
+
+}
+.contenedor{
 	width: 90%;
 	margin: auto;
-
 }
 .titulo{
 	font-size: 7rem;
@@ -24,13 +27,14 @@ body{
 .titulo-a{
 	font-size: 2.4rem;
 	font-weight: 300;
-	padding-left: 20px;
-	margin: 0px;
+	
+	margin: 20px;
 }
 .titulo-b{
 	font-size: 5rem;
 	font-family: 'El Messiri', sans-serif;
 	margin-bottom: 25px;
+	padding: 0px;
 
 }
 button{
@@ -41,6 +45,9 @@ button{
 }
 .guitarras{
 	color: #1F3130;
+	overflow: hidden;
+	padding: 20px;
+	margin: 20px;
 }
 
 .guitarras h2{
@@ -61,4 +68,25 @@ button{
 	display: inline-block;
 	border: 2px solid red;
 	margin-left: 20px;
+}
+
+.derecha {
+	float: right;
+}
+.izquierda {
+	float: left;
+
+}
+.guitarras  ol{
+	padding: 0px;
+}
+.contenedor-guitarra-a{
+	border: 2px solid red;
+	padding: 0px;
+	margin-right:  420px;
+}
+.contenedor-guitarra-b{
+	border: 2px solid red;
+	padding: 0px;
+	margin-left:  420px;
 }
