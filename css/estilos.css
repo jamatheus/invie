@@ -47,7 +47,6 @@ button{
 	padding-left: 20px;
 }
 .titulo-b{
-	border: 2px solid red;
 	font-size: 5rem;
 	font-family: 'El Messiri', sans-serif;
 	margin-bottom: 25px;
@@ -61,7 +60,7 @@ button{
 	color: #1F3130;
 	border-radius: 8px;
 	/*overflow: hidden;*/
-	clear: both;
+	clear: right;
 	padding: 20px;
 	margin: 20px;
 }
@@ -99,7 +98,8 @@ button{
 .izquierda {
 	float: left;
 	position: relative;
-	top: 70px;
+	top: -100px;
+
 
 }
 .guitarras  ol{
@@ -114,3 +114,17 @@ button{
 	padding: 0px;
 	margin-left:  400px;
 } 
+.footer{
+	clear: both;
+	background: #273B47;
+}
+.contacto img{
+	display: block;
+}
+.contacto strong{
+	display: block;
+}
+.contacto a {
+	color: white;
+	text-decoration: none;
+}
