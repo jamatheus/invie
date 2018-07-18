@@ -1,6 +1,7 @@
 *{
 	
 	box-sizing: border-box;
+	list-style: none;
 }
 
 html{
@@ -11,12 +12,7 @@ body{
 	font-family: "Roboto",san-serif;
 	margin: 0px;
 }
-button{
-	
-	width: 100px;
-	padding:  5px;
-	margin: 20px;	
-}
+
 .header{
 	position: relative;
 }
@@ -24,21 +20,62 @@ button{
 	width: 90%;
 	margin: auto;
 }
-.titulo{
-	font-size: 7rem;
-	font-family: 'El Messiri', sans-serif;
-	padding-left: 20px;
-	margin: 0px;
-}
+		.titulo{
+			font-size: 6rem;
+			font-family: 'El Messiri', sans-serif;
+			padding-left: 50px;
+			margin: 0px;
+		}
+		.titulo span{
+			text-decoration: underline;
+		}
 
-.titulo-a{
+		.titulo-a{
+			
+			font-size: 2.4rem;
+			font-weight: 300;
+			margin-bottom:  40px;
+			padding-left: 50px;
+		}
+		button{
+			width: 200px;
+			padding:  5px;
+			margin: 20px 20px 20px 50px;
+			background: linear-gradient(to left, #EF5D2A, #FB0606);
+			border-radius: 10px;
+			font-size: 1.8rem;
+			cursor: pointer;
+		}
+
+.portada{
+	background-image: url('../images/background.png');
+	background-size: cover;
+	color: #FFFFFF;
+	padding: 30px;
+	margin: 0;
+}
+		.logotipo{
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+.menu{
 	
-	font-size: 2.4rem;
-	font-weight: 300;
-	margin-bottom:  40px;
-	padding-left: 20px;
+	font-size: 2rem;
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+	bottom: 2px;
+
 }
 
+			.menu li{
+				display: inline-block;
+				margin-left: 20px;
+			}
+			.menu a{
+				color: white;
+				text-decoration: none;
+			}
 .titulo-aa{
 	
 	font-size: 4rem;
@@ -47,7 +84,7 @@ button{
 	padding-left: 20px;
 }
 .titulo-b{
-	font-size: 5rem;
+	font-size: 5.5rem;
 	font-family: 'El Messiri', sans-serif;
 	margin-bottom: 25px;
 	padding: 0px;
@@ -63,31 +100,13 @@ button{
 	clear: right;
 	padding: 20px;
 	margin: 20px;
+	height: 360px;
 }
 
 .guitarras h2{
 	font-size: 3.5rem;
 }
-.portada{
-	background-image: url('../images/background.png');
-	color: #FFFFFF;
-	padding: 30px;
-}
-.menu{
-	
-	font-size: 2rem;
-	display: inline-block;
-	position: absolute;
-	right: 0px;
-	bottom: 2px;
 
-}
-
-.menu li{
-	display: inline-block;
-	margin-left: 20px;
-
-}
 
 .derecha {
 	float: right;
@@ -98,21 +117,28 @@ button{
 .izquierda {
 	float: left;
 	position: relative;
-	top: -100px;
+	top: -50px;
+	
 
 
 }
 .guitarras  ol{
 	padding: 0px;
+	
 }
 .contenedor-guitarra-a{
 	
 	padding: 0px;
 	margin-right:  420px;
+	margin-bottom: 100px;
 }
+
+
 .contenedor-guitarra-b{
 	padding: 0px;
 	margin-left:  400px;
+	/*position: relative;*/
+	margin-bottom: 50px;
 } 
 .footer{
 	clear: both;
@@ -120,6 +146,7 @@ button{
 }
 .contacto img{
 	display: block;
+	margin-top: 50px;
 }
 .contacto strong{
 	display: block;
@@ -127,4 +154,163 @@ button{
 .contacto a {
 	color: white;
 	text-decoration: none;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
+.footer .contenedor{
+	/*border: 2px solid red;*/
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.contacto{
+	/*border: 2px solid red;*/
+	width: 400px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.formulario {
+	/*border: 2px solid red;*/
+	width: 400px;
+	height: 400px;
+	padding-top: 40px;
+}
+.titulos-c{
+	color: white;
+}
+.formulario .datos{
+	color: white;
+	/*border: 2px solid red;*/
+	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 0 10px 0 10px;
+	line-height: 3;
+	
+}
+.formulario .sexo{
+	display: flex;
+	justify-content: flex-start;
+	padding: 5px;
+	color: white;
+}
+.sexo .col1{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+}
+.sexo .col2{
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.informacion{
+	/*border: 2px solid red;*/
+	width: 400px;
+	height: 400px;
+}
+.intereses{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: flex-start;
+	padding: 10px;
+	line-height: 1;
+	color: white;
+}
+.intereses .col1{
+
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+
+}
+.intereses .col2{
+
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+
+}
+.intereses .col3{
+
+	padding-top: 10px;
+	padding-left: 0px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+
+}
+.intereses .col4{
+
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 50px;
+	padding-bottom: 10px;
+
+}
+.informacion{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-top: 30px;
+	
+}
+
+.informacion .button{
+	width: 100px;
+	padding:  5px;
+	margin: 20px;
+	background: #FA1616;
+	border-radius: 5px;
+	
+}
+
+.contenedor-tabla{
+	display: flex;
+	flex: 1 1 auto;
+	justify-content: center;
+}
+.header-table{
+	position: absolute;
+	top: 500px;
+	left: 320px;
+}
+
+table{
+	width: 50%;
+	margin:  200px 0px;
+	border: 2px solid #273B47;
+
+}
+thead{
+		
+	margin-bottom: 100px;
+}
+
+th{
+	background: #273B47;
+	color: #FFFFFF;
+	padding: 10px;
+}
+td{
+	padding: 20px;
+}	
+
+table, td, th{
+	border: 2px solid #273B47;
+	border-collapse: collapse;
+}
+input:focus, textarea:focus{
+	background: #E6E2E2;
+}
+
