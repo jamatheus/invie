@@ -2,6 +2,8 @@
 	
 	box-sizing: border-box;
 	list-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 html{
@@ -10,15 +12,16 @@ font-size: 62.5%;
 body{
 	font-size: 1.6rem;
 	font-family: "Roboto",san-serif;
-	margin: 0px;
+
+
 }
 
 .header{
 	position: relative;
 }
 .contenedor{
-	width: 90%;
-	margin: auto;
+	/*width: 90%;
+	margin: auto;*/
 }
 		.titulo{
 			font-size: 6rem;
@@ -51,11 +54,12 @@ body{
 	background-image: url('../images/background.png');
 	background-size: cover;
 	color: #FFFFFF;
-	padding: 30px;
-	margin: 0;
+	margin-right: -90px;
+	padding: 30px 50px 30px 30px;
+	
 }
 		.logotipo{
-			margin-left: 0px;
+			margin-left: 50px;
 			margin-right: 0px;
 		}
 .menu{
@@ -81,7 +85,7 @@ body{
 	font-size: 4rem;
 	font-weight: 600;
 	margin-bottom:  40px;
-	padding-left: 20px;
+	padding-left: 50px;
 }
 .titulo-b{
 	font-size: 5.5rem;
@@ -99,7 +103,7 @@ body{
 	/*overflow: hidden;*/
 	clear: right;
 	padding: 20px;
-	margin: 20px;
+	margin: 20px 0px 20px 50px;
 	height: 360px;
 }
 
@@ -143,6 +147,16 @@ body{
 .footer{
 	clear: both;
 	background: #273B47;
+	margin-right: -90px;
+}
+.contacto{
+	/*border: 2px solid red;*/
+	width: 300px;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
 }
 .contacto img{
 	display: block;
@@ -154,6 +168,7 @@ body{
 .contacto a {
 	color: white;
 	text-decoration: none;
+	font-size: 1.2rem;
 	margin-top: 10px;
 	margin-right: 10px;
 	margin-bottom: 10px;
@@ -164,20 +179,12 @@ body{
 	justify-content: flex-start;
 	
 }
-.contacto{
-	/*border: 2px solid red;*/
-	width: 400px;
-	height: 400px;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
 
-}
 .formulario {
 	/*border: 2px solid red;*/
-	width: 400px;
+	width: 450px;
 	height: 400px;
-	padding-top: 40px;
+	padding: 40px;
 }
 .titulos-c{
 	color: white;
@@ -275,15 +282,15 @@ body{
 	
 }
 
-.contenedor-tabla{
+.table{
 	display: flex;
 	flex: 1 1 auto;
 	justify-content: center;
 }
 .header-table{
 	position: absolute;
-	top: 500px;
-	left: 320px;
+	top: 450px;
+	left: 250px;
 }
 
 table{
